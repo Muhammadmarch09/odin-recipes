@@ -1,0 +1,47 @@
+/* Resetting css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(226, 218, 206);
+}
+/* Styling the Home page link  */
+.home-link {
+  text-decoration: none;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Home page link Done  */
+/* Header start  */
+.header {
+  color: rgb(145, 127, 25);
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 16px;
+}
+/* Header end  */
+/* Image Start  */
+img {
+  width: 300px;
+  display: inline-block;
+  margin-left: 500px;
+}
+/* Image End  */
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px 55px;
+    padding: 12px;
+}
+/* styling the headings  */
+h2{
+    margin: 20px 55px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Ingredients part start  */
+ul,ol{
+    margin-left: 50px;
+}
