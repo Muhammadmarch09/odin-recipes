@@ -1,0 +1,65 @@
+/* Importing Fonts  */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Tagesschrift&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+
+:root{
+    --active-link-color:#596922;
+    --hover-link-color:#18af78;
+    --nav-main-color:#777;
+}
+/* Css Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header  */
+/* Navbar  */
+
+.header {
+  margin-top: 26px;
+  padding: 10px;
+}
+
+.header .navbar {
+  border-bottom: 3px solid rgb(223, 221, 221);
+  border-bottom-style: double;
+}
+.header .navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 560px;
+  margin: auto;
+  margin-bottom: 22px;
+}
+.header .navbar ul li{
+    list-style-type: none;
+}
+.header .navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "EB Garamond", serif;
+    font-size: 12px;
+    color: var(--nav-main-color);
+}
+.header .navbar ul li a:hover{
+    color: var(--hover-link-color);
+}
+/* Navbar ends  */
+/* Header ends  */
+
+/* Logo  */
+.logo{
+    text-align: center;
+    margin-top: 44px;
+}
+
+.logo h1{
+    font-family:"Style Script", cursive;
+    font-size: 66px;
+    color: #797373;
+    font-weight: 300;
+}
+/* Logo ends  */
