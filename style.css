@@ -1,12 +1,11 @@
 /* Importing Fonts  */
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Tagesschrift&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
 
-
-:root{
-    --active-link-color:#596922;
-    --hover-link-color:#18af78;
-    --nav-main-color:#777;
+:root {
+  --active-link-color: #596922;
+  --hover-link-color: #18af78;
+  --nav-main-color: #777;
 }
 /* Css Resets */
 * {
@@ -34,54 +33,40 @@
   margin: auto;
   margin-bottom: 22px;
 }
-.header .navbar ul li{
-    list-style-type: none;
+.header .navbar ul li {
+  list-style-type: none;
 }
-.header .navbar ul li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "EB Garamond", serif;
-    font-size: 12px;
-    color: var(--nav-main-color);
+.header .navbar ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "EB Garamond", serif;
+  font-size: 12px;
+  color: var(--nav-main-color);
 }
-.header .navbar ul li a:hover{
-    color: var(--hover-link-color);
+.header .navbar ul li a:hover {
+  color: var(--hover-link-color);
 }
 /* Navbar ends  */
-/* Header ends  */
-
 /* Logo  */
-.logo{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+.logo {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.logo h1{
-    font-family:"Style Script", cursive;
-    font-size: 66px;
-    color: #797373;
-    font-weight: 300;
+.logo h1 {
+  font-family: "Style Script", cursive;
+  font-size: 66px;
+  color: #797373;
+  font-weight: 300;
 }
 /* Logo ends  */
+/* Header ends  */
 /* Cards  */
-.card-container{
-    display: flex;
-    justify-content: space-around;
-    border-top: 3px solid  rgb(223, 221, 221);
-    border-top-style: double;
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  border-top: 3px solid rgb(223, 221, 221);
+  border-top-style: double;
 }
-.card {
-    transition: 0.3s;
-    width: 20%;
-    height: 120px;
-    text-align: center;
-  }
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .container {
-    padding: 2px 16px;
-  }
+/* Cards Ends  */
