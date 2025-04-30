@@ -20,10 +20,12 @@
 .header {
   margin-top: 20px;
   padding: 10px;
+  position: sticky;
+  top: 50px;;
 }
 
 .header .navbar {
-  border-bottom: 3px solid rgb(223, 221, 221);
+  border-bottom: 3px solid rgba(223, 221, 221, 0.493);
   border-bottom-style: double;
 }
 .header .navbar ul {
