@@ -18,7 +18,7 @@
 /* Navbar  */
 
 .header {
-  margin-top: 26px;
+  margin-top: 20px;
   padding: 10px;
 }
 
@@ -50,8 +50,8 @@
 /* Logo  */
 .logo {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 55px;
+  margin-bottom: 55px;
 }
 
 .logo h1 {
@@ -70,3 +70,21 @@
   border-top-style: double;
 }
 /* Cards Ends  */
+.card-container{
+  padding: 40px;
+  margin: 12px 10px;
+}
+.card-container .card{
+width: 20%;
+height: 180px;
+}
+.card-container .card p{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: #797373;
+}
+.card-container .card:hover{
+  box-shadow: rgba(149, 149, 175, 0.25) 0px 50px 100px -20px, rgba(190, 165, 165, 0.3) 0px 30px 60px -30px;
+  cursor: pointer;
+}
