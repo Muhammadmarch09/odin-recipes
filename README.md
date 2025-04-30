@@ -67,9 +67,12 @@ Place it on the baking parchment to prove for a further hour until doubled in si
 
 step 7
 Heat oven to 220C/fan 200C/gas 7.
-
-step 8
 Dust the loaf with some extra flour and cut a cross about 6cm long into the top of the loaf with a sharp knife.
 
 step 9
 Bake for 25-30 mins until golden brown and the loaf sounds hollow when tapped underneath. Cool on a wire rack.
+
+
+
+
+

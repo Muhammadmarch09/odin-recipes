@@ -1,0 +1,80 @@
+/* Importing fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+/* Declaring variables */
+:root{
+    --header-color :hsl(20, 59%, 27%);
+    --sub-heading-color:#b5a18d;
+    --list-item-color:#695853;
+}
+/* Reset Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header  */
+.header{
+    width: 100%;
+    height: 50px;
+}
+.header a{
+    text-decoration: none;
+}
+.header h1{
+    font-family: "Style Script", cursive;
+    font-size: 32px;
+    color: #797373;
+    font-weight: 300;
+}
+/* Header Ends  */
+/* Main section */
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+main .left{
+    width: 60%;
+    padding: 26px;
+}
+main .left .headings h1{
+    color:#6f391d;
+    font-family:"Alice", serif;
+    font-weight: 300;
+    margin: 5px;
+}
+
+main .left .headings h2{
+    width: 120px;
+    height: auto;
+    background-color: rgb(155, 130, 112);
+    color: #fff;
+    font-weight: 200;
+    font-size: 18px;
+}
+main .left .details h3{
+    color: #b5a18d;
+    font-family:"Alice", serif;
+    font-weight: 300;
+    border-bottom:1px solid #b5a18d;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+main .left .details ul,p{
+    margin-left: 12px;
+    padding: 22px;
+}
+main .left .details ul li,p{
+    color:#695853 ;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+main .right{
+    width: 40%;
+    height: auto; 
+    background-image: url(../Images/pancake.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
