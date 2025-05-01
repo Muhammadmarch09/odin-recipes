@@ -18,22 +18,22 @@
 /* Navbar  */
 
 .header {
-  margin-top: 20px;
   padding: 10px;
   position: sticky;
-  top: 50px;;
+  top: 0px;;
+  background-color: rgb(241, 218, 189);
 }
 
 .header .navbar {
-  border-bottom: 3px solid rgba(223, 221, 221, 0.493);
-  border-bottom-style: double;
+margin-top: 12px;
 }
 .header .navbar ul {
   display: flex;
   justify-content: space-evenly;
   width: 560px;
   margin: auto;
-  margin-bottom: 32px;
+  align-items: center;
+  padding: 10px;
 }
 .header .navbar ul li {
   list-style-type: none;
