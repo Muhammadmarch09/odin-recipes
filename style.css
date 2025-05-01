@@ -172,3 +172,8 @@ label{
   padding: 8px;
   color: #797373;
 }
+
+/* styling the ScrollBar   */
+::-webkit-scrollbar{
+width: 0px;
+}
