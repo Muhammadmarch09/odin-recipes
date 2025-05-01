@@ -23,10 +23,6 @@
   top: 0px;;
   background-color: rgb(241, 218, 189);
 }
-
-.header .navbar {
-margin-top: 12px;
-}
 .header .navbar ul {
   display: flex;
   justify-content: space-evenly;
