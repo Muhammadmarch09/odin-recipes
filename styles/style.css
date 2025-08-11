@@ -1,7 +1,7 @@
 header nav{
     display: flex;
     justify-content: space-around;
-    padding: 12px 6px;
+    padding: 16px 6px;
     align-items: center;
 }
 .logo h1{
@@ -11,5 +11,18 @@ header nav{
 }
 .nav-list ul{
     display: flex;
-    justify-content: space-between;
+}
+.nav-list ul li{
+    margin-left: 12px;
+    padding: 0px 14px;
+    list-style-type: none;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color:#1D2939 ;
+    font-family:Plus Jakarta Sans;
+}
+.nav-list ul li a:hover{
+    color: #FE5000;
 }
