@@ -12,5 +12,8 @@ In this project I am using Html and css To build .Later I will upgrade it using 
 ## 04.GIT and GITHUB
 ## 05.VS CODE
 
+## Fonts uses
+"Playwrite HU" , Manrope ,PlusJakartaSans
+
 # 🖋️ Author 
 ## Muhammad Mubarak

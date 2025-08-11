@@ -1,4 +1,15 @@
 header nav{
     display: flex;
     justify-content: space-around;
+    padding: 12px 6px;
+    align-items: center;
+}
+.logo h1{
+    font-size: 34px;
+    color: #FE5000;
+    font-family: "Playwrite HU";
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
 }
