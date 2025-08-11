@@ -1,28 +1,70 @@
-header nav{
-    display: flex;
-    justify-content: space-around;
-    padding: 16px 6px;
-    align-items: center;
+header nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 6px;
+  align-items: center;
 }
-.logo h1{
-    font-size: 34px;
-    color: #FE5000;
-    font-family: "Playwrite HU";
+.logo h1 {
+  font-size: 34px;
+  color: #fe5000;
+  font-family: "Playwrite HU";
 }
-.nav-list ul{
-    display: flex;
+.nav-list ul {
+  display: flex;
 }
-.nav-list ul li{
-    margin-left: 12px;
-    padding: 0px 14px;
-    list-style-type: none;
+.nav-list ul li {
+  margin-left: 12px;
+  padding: 0px 14px;
+  list-style-type: none;
 }
-.nav-list ul li a{
-    text-decoration: none;
-    font-size: 18px;
-    color:#1D2939 ;
-    font-family:Plus Jakarta Sans;
+.nav-list ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #1d2939;
+  font-family: Plus Jakarta Sans;
 }
-.nav-list ul li a:hover{
-    color: #FE5000;
+.nav-list ul li a:hover {
+  color: #fe5000;
+}
+header main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 24px;
+}
+.left-section {
+  width: 30%;
+  padding: 12px 16px;
+}
+.right-section .card1 {
+  background-color: #f7f6f6;
+  box-shadow: 5px 2px 5px grey;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  right: 100px;
+  color: #344054;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  border-radius: 7px;
+}
+.right-section .card2 {
+  background-color: #fe5000;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  border-radius: 7px;
+  width: 200px;
+  border: 3px solid #fe5000;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+  left: 280px;
+  color: #fff;
+}
+.right-section .card2 .innercard {
+  background-color: #ffffff;
+  padding: 8px;
+  color: #F76631;
 }
