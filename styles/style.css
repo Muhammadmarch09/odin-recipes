@@ -20,7 +20,7 @@ header nav {
 }
 .nav-list ul li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   color: #1d2939;
   font-family: Plus Jakarta Sans;
 }
@@ -150,46 +150,46 @@ main .card-container .card:hover {
   font-size: 34px;
   padding: 16px;
 }
-.banner .right-section .images{
+.banner .right-section .images {
   display: flex;
   margin-top: 32px;
 }
-.banner .right-section .images .box{
+.banner .right-section .images .box {
   margin-right: 22px;
-  background-color: #FEE6DC;
+  background-color: #fee6dc;
   padding: 22px;
   border-radius: 16px;
 }
-.banner .right-section .images .box:hover{
-  background-color: #F76631;
+.banner .right-section .images .box:hover {
+  background-color: #f76631;
 }
 /* Banner  */
 /* Recipes  */
-.recipes{
+.recipes {
   width: 100vw;
 }
-.recipes h1{
+.recipes h1 {
   font-family: Plus Jakarta Sans;
   font-size: 34px;
   color: #121212;
   margin: 22px;
 }
-.recipes .card-container{
+.recipes .card-container {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
 }
-.recipes .card-container .card{
+.recipes .card-container .card {
   width: 250px;
 }
-.recipes .card-container .card .texts{
-   border: 2px solid #EAECF0 ;
-   padding: 12px;
-   border-radius: 12px;
-   padding-top: 22px;
+.recipes .card-container .card .texts {
+  border: 2px solid #eaecf0;
+  padding: 12px;
+  border-radius: 12px;
+  padding-top: 22px;
 }
-.recipes .card-container .card img{
-  border: 2px solid #EAECF0;
+.recipes .card-container .card img {
+  border: 2px solid #eaecf0;
   border-radius: 50%;
   padding: 12px;
   position: relative;
@@ -197,21 +197,21 @@ main .card-container .card:hover {
   left: 12px;
   background-color: white;
 }
-.recipes .card-container .card .texts h2{
+.recipes .card-container .card .texts h2 {
   padding: 22px;
   margin-top: 20px;
   font-family: Plus Jakarta Sans;
-  color: #1D2939;
+  color: #1d2939;
 }
-.recipes .card-container .card .texts p{
+.recipes .card-container .card .texts p {
   font-family: Manrope;
-  padding:0px 22px;
+  padding: 0px 22px;
   color: 667085;
   font-size: 14px;
 }
-.recipes .card-container .card .texts a{
+.recipes .card-container .card .texts a {
   text-decoration: none;
-  color: #F76631;
+  color: #f76631;
   padding: 12px 22px;
   font-family: Plus Jakarta Sans;
   font-size: 14px;
@@ -219,25 +219,25 @@ main .card-container .card:hover {
 
 /* Recipes  */
 /* Our chefs */
-.our-chefs{
+.our-chefs {
   margin-top: 22px;
   padding: 12px 8px;
 }
-.our-chefs h1{
+.our-chefs h1 {
   color: #101828;
   font-family: Plus Jakarta Sans;
   font-size: 28px;
   font-weight: 400;
   margin-left: 60px;
 }
-.our-chefs .card-container{
+.our-chefs .card-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.our-chefs .card-container .card img{
+.our-chefs .card-container .card img {
   width: 80px;
-  background-color: #EAECF0;
+  background-color: #eaecf0;
   padding: 20px 10px;
   border-radius: 50px;
   border: 3px solid #fff;
@@ -245,25 +245,72 @@ main .card-container .card:hover {
   top: 80px;
   left: 160px;
 }
-.our-chefs .card-container .card .texts{
-background-color: #EAECF0;
-width: 260px;
-padding: 6px 18px;
-border-radius: 10px;
+.our-chefs .card-container .card .texts {
+  background-color: #eaecf0;
+  width: 260px;
+  padding: 6px 18px;
+  border-radius: 10px;
 }
-.our-chefs .card-container .card .texts h4{
+.our-chefs .card-container .card .texts h4 {
   font-family: Plus Jakarta Sans;
   color: #101828;
 }
-.our-chefs .card-container .card texts p{
+.our-chefs .card-container .card .texts p{
   font-family: Manrope;
   color: #475467;
+  font-size: 12px;
 }
-.our-chefs .card-container .card:hover img{
-  background-color: #F76631;
+.our-chefs .card-container .card:hover img {
+  background-color: #f76631;
 }
-.our-chefs .card-container .card:hover .texts{
-  background-color: #FEF0EA;
+.our-chefs .card-container .card:hover .texts {
+  background-color: #fef0ea;
 }
 
 /* Our chefs  */
+/* Footer Contact  */
+.contact {
+  background-color: #0a0a0a;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+}
+.contact .left-section {
+  padding: 12px 0px;
+}
+.contact .left-section h1 {
+  color: #fff;
+  font-family: Plus Jakarta Sans;
+  font-size: 32px;
+}
+.contact .left-section .btn{
+  width: 150px;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+}
+.contact .left-section p {
+  margin-top: 100px;
+  font-family: Manrope;
+  font-size: 12px;
+  padding: 10px 0px;
+}
+.contact .right-section p {
+  color: #fff;
+  word-spacing: 120px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 100;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.contact .right-section .icons{
+  margin-top: 100px;
+}
+.contact .right-section i{
+  color: #f1f1f1;
+  margin-left: 15px;
+  font-size: 12px;
+}
