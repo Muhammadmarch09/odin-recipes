@@ -193,7 +193,9 @@ main .card-container .card:hover {
   border-radius: 50%;
   padding: 12px;
   position: relative;
-  top: 12px;
+  top: 40px;
+  left: 12px;
+  background-color: white;
 }
 .recipes .card-container .card .texts h2{
   padding: 22px;
@@ -214,3 +216,54 @@ main .card-container .card:hover {
   font-family: Plus Jakarta Sans;
   font-size: 14px;
 }
+
+/* Recipes  */
+/* Our chefs */
+.our-chefs{
+  margin-top: 22px;
+  padding: 12px 8px;
+}
+.our-chefs h1{
+  color: #101828;
+  font-family: Plus Jakarta Sans;
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 60px;
+}
+.our-chefs .card-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.our-chefs .card-container .card img{
+  width: 80px;
+  background-color: #EAECF0;
+  padding: 20px 10px;
+  border-radius: 50px;
+  border: 3px solid #fff;
+  position: relative;
+  top: 80px;
+  left: 160px;
+}
+.our-chefs .card-container .card .texts{
+background-color: #EAECF0;
+width: 260px;
+padding: 6px 18px;
+border-radius: 10px;
+}
+.our-chefs .card-container .card .texts h4{
+  font-family: Plus Jakarta Sans;
+  color: #101828;
+}
+.our-chefs .card-container .card texts p{
+  font-family: Manrope;
+  color: #475467;
+}
+.our-chefs .card-container .card:hover img{
+  background-color: #F76631;
+}
+.our-chefs .card-container .card:hover .texts{
+  background-color: #FEF0EA;
+}
+
+/* Our chefs  */
