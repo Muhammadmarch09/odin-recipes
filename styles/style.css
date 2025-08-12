@@ -103,7 +103,7 @@ main .card-container {
   border-radius: 16px;
   width: 80vw;
   margin: auto;
-  padding: 12px 18px;
+  padding: 12px 0px;
 }
 main .card-container .card {
   width: 180px;
@@ -152,5 +152,65 @@ main .card-container .card:hover {
 }
 .banner .right-section .images{
   display: flex;
-  
+  margin-top: 32px;
+}
+.banner .right-section .images .box{
+  margin-right: 22px;
+  background-color: #FEE6DC;
+  padding: 22px;
+  border-radius: 16px;
+}
+.banner .right-section .images .box:hover{
+  background-color: #F76631;
+}
+/* Banner  */
+/* Recipes  */
+.recipes{
+  width: 100vw;
+}
+.recipes h1{
+  font-family: Plus Jakarta Sans;
+  font-size: 34px;
+  color: #121212;
+  margin: 22px;
+}
+.recipes .card-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.recipes .card-container .card{
+  width: 250px;
+}
+.recipes .card-container .card .texts{
+   border: 2px solid #EAECF0 ;
+   padding: 12px;
+   border-radius: 12px;
+   padding-top: 22px;
+}
+.recipes .card-container .card img{
+  border: 2px solid #EAECF0;
+  border-radius: 50%;
+  padding: 12px;
+  position: relative;
+  top: 12px;
+}
+.recipes .card-container .card .texts h2{
+  padding: 22px;
+  margin-top: 20px;
+  font-family: Plus Jakarta Sans;
+  color: #1D2939;
+}
+.recipes .card-container .card .texts p{
+  font-family: Manrope;
+  padding:0px 22px;
+  color: 667085;
+  font-size: 14px;
+}
+.recipes .card-container .card .texts a{
+  text-decoration: none;
+  color: #F76631;
+  padding: 12px 22px;
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
 }
