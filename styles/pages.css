@@ -1,0 +1,65 @@
+a {
+  text-decoration: none;
+}
+.home-logo {
+  font-size: 34px;
+  color: #fe5000;
+  font-family: "Playwrite HU";
+  margin-left: 52px;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .recipe-name {
+  font-family: "Plus Jakarta Sans";
+  font-size: 28px;
+  color: #fe5000;
+}
+main {
+  margin: auto;
+  width: 80vw;
+}
+main h1 {
+  font-family: Manrope;
+  font-size: 24px;
+  color: #fe5000;
+}
+main .description .description-text {
+  font-family: "Plus Jakarta Sans";
+  color: rgb(83, 56, 56);
+  border: 2px solid #fe5000;
+  padding: 22px;
+  border-radius: 8px;
+  width: 80%;
+  margin: auto;
+}
+main .ingredients ul {
+  border: 2px solid #fe5000;
+  padding: 22px;
+  width: 80%;
+  margin: auto;
+  border-radius: 8px;
+}
+main .ingredients ul li {
+  color: rgb(83, 56, 56);
+  font-family: "Plus Jakarta Sans";
+  list-style-type: square;
+  margin-left: 32px;
+}
+main .steps ol {
+  border: 2px solid #fe5000;
+  padding: 22px;
+  width: 80%;
+  margin: auto;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+main .steps ol li {
+  padding: 8px;
+  margin-left: 32px;
+  color: rgb(83, 56, 56);
+  font-family: "Plus Jakarta Sans";
+}
