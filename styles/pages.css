@@ -48,6 +48,7 @@ main .ingredients ul li {
   font-family: "Plus Jakarta Sans";
   list-style-type: square;
   margin-left: 32px;
+  padding: 5px;
 }
 main .steps ol {
   border: 2px solid #fe5000;
